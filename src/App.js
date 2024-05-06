@@ -51,15 +51,14 @@ function App() {
       <h1 className="title">Markdown Previewer</h1>
       <div className="preview-editor-container" >
         <div className="editor-container">
-
-        <Editor markdown={markdown} onChange={handleChange} />
-      </div>
-      <div className="preview-container">
-        <Previewer markdown={markdown} />
-      </div>  
+          <Editor markdown={markdown} onChange={handleChange} />
+        </div>
+        <div className="preview-container">
+          <Previewer markdown={markdown} />
+        </div>  
       
-    </div>   
-  </div>
+      </div>   
+    </div>
   );
 }
 
